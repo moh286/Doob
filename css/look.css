@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+.navbar img {
+    height: 40px;   /* قلل الطول */
+    width: auto;    /* حافظ على التناسب */
+    object-fit: contain; /* عشان ما ينضغط */
+  }
+  
+
+.h1-p {
+    margin: 10% 0% 0% 15%;
+}
+
+.h1-p h1 {
+    font-size: 45px;
+}
+
+.services-section {
+    background-color: #f8f9fa;
+}
+
+.services-section .row i {
+    font-size: 30px;
+}
+
+.service-card:hover i {
+    color: #007bff !important;
+    transition: 0.5s;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #555;
+}
+
+p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.contat {
+    margin: 10% 0% 0% -23%;
+}
+
+
+
+.img-6 .all-image {
+    width: 30%;
+    object-fit: cover;
+    margin: 50px auto;
+}
+
+.card {
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card i {
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.card:hover i {
+    color: #ffe600;
+}
+
+.iconnews {
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+
+
+textarea {
+    width: 100%;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 5% 0% 0% 0%
+}
+textarea::placeholder{
+    color: blue;
+}
+
+
+footer {
+    background-color: #2c3e50;
+}
+footer .col ul li {
+    list-style: none;
+    text-decoration: none;
+}
+footer .col ul li a {
+  
+    text-decoration: none;
+    transition: 0.3s;
+}
+footer .col i{
+    transition: 0.3s;
+}
+footer a:hover{
+    color: red  !important;
+}
+footer i:hover{
+    color: red !important;
+}
+
+
